@@ -1,0 +1,20 @@
+{
+  "name": "proxy-switcher",
+  "version": "1.0.0",
+  "description": "Proxy switcher. 'Nuff said.",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "install": "node-gyp configure && npm run build",
+    "build": "node-gyp build",
+    "clean": "node-gyp clean"
+  },
+  "author": "Will Leverone",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "node-gyp": "^5.0.7"
+  },
+  "dependencies": {
+    "node-addon-api": "^2.0.0"
+  }
+}
