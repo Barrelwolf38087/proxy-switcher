@@ -19,7 +19,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
       run: |
-        apt install libglibmm-2.4-dev
+        sudo apt install -y libglibmm-2.4-dev
         npm ci
         npm run build
       env:
