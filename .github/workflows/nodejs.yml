@@ -21,6 +21,5 @@ jobs:
       run: |
         sudo apt install -y libglibmm-2.4-dev
         npm ci
-        npm run build
       env:
         CI: true
